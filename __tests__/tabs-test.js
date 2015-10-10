@@ -2,9 +2,9 @@ jest.dontMock('../src/components/tabs.js');
 
 describe('TABS', function () {
 
-  var React = require('react/addons');
+  var React = require('react');
 
-  var TestUtils = React.addons.TestUtils;
+  var TestUtils = require('react-addons-test-utils');
 
   var Tabs = require('../src/components/tabs.js');
 

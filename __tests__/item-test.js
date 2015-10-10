@@ -1,9 +1,8 @@
 jest.dontMock('../src/components/item.js');
 
 describe('Item', function () {
-
-  var React = require('react/addons');
-  var TestUtils = React.addons.TestUtils;
+  var React = require('react');
+  var TestUtils = require('react-addons-test-utils');
   var Item;
   var item;
   var value = "value";

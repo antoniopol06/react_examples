@@ -2,9 +2,11 @@ jest.dontMock('../src/components/tab_system.js');
 
 describe('TAB SYSTEM 1', function () {
 
-  var React = require('react/addons');
+  var React = require('react');
 
-  var TestUtils = React.addons.TestUtils;
+  var ReactDOM = require('react-dom');
+  
+  var TestUtils = require('react-addons-test-utils');
 
   var TabSystem = require('../src/components/tab_system.js');
 
@@ -44,14 +46,14 @@ describe('TAB SYSTEM 1', function () {
 
   it('Should have when is loaded the description of tab 0', function() {
     var description = TestUtils.findRenderedDOMComponentWithClass(tabSystem, 'description');
-    expect(description.getDOMNode().textContent).toEqual('esto es tab1');
+    expect(ReactDOM.findDOMNode(description).textContent).toEqual('esto es tab1');
   });
 
   it('Should change currentTab when clicking other tab', function() {
     var tabNodes= TestUtils.scryRenderedDOMComponentsWithClass(tabSystem, 'tab');
     var description = TestUtils.findRenderedDOMComponentWithClass(tabSystem, 'description');
-    TestUtils.Simulate.click(tabNodes[1].getDOMNode());
-    expect(description.getDOMNode().textContent).toEqual('esto es tab2');
+    TestUtils.Simulate.click(ReactDOM.findDOMNode(tabNodes[1]));
+    expect(ReactDOM.findDOMNode(description).textContent).toEqual('esto es tab2');
     expect(tabSystem.state.currentTab).toEqual(1);
   });
 
