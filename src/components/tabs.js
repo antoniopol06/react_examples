@@ -1,16 +1,11 @@
 'use restrict';
 
-var React = require('react');
+import React from 'react';
 
-var Tab = require('./tab.jsx');
+import Tab from './tab';
 
-var Tabs = React.createClass({
-
-  getDefaultProps () {
-    return {
-      className: null
-    }
-  },
+class Tabs extends React.Component {
+  
 
   renderTabs () {
     return this.props.tabs.map((tab, index) => {
@@ -24,7 +19,7 @@ var Tabs = React.createClass({
         name={tab.name}/>
       )
     })
-  },
+  }
 
   render () {
     return (
@@ -33,6 +28,8 @@ var Tabs = React.createClass({
       </div>
     )
   }
-});
+};
 
-module.exports = Tabs;
+Tabs.defaultProps = {className: null};
+
+export default Tabs;

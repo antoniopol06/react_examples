@@ -1,13 +1,14 @@
 'use strict';
 
-var React = require('react');
+import React from 'react';
 
-var List = require('./components/list.jsx');
-var TabSystem = require('./components/tab_system.jsx');
-var TabSystem2 = require('./components/tab_system2.jsx');
+import List from './components/list';
 
+import TabSystem from './components/tab_system';
 
-var items = ['cuatro', 'tres', 'dos'];
+import TabSystem2 from './components/tab_system2';
+
+var items = ['uno', 2, 'dos'];
 
 var tabs = [
   { name: 'Tab1', description: 'esto es tab1' },
@@ -15,16 +16,17 @@ var tabs = [
   { name: 'Tab3', description: 'esto es tab3' },
 ];
 
-var App = React.createClass({
+class App extends React.Component {
   render () {
     return (
       <div>
+        Prueba
         <List items={ items }/>
         <TabSystem tabs={ tabs }/>
         <TabSystem2 />
       </div>
     )
   }
-});
+};
 
-module.exports = App;
+export default App;

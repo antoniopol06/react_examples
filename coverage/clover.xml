@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1444448087270" clover="3.2.0">
+	<project timestamp="1444448087270"  name="All Files" >
+		<metrics statements="84"  coveredstatements="82"  conditionals="206"  coveredconditionals="205"  methods="68"  coveredmethods="65"  elements="358"  coveredelements="352"  complexity="0"  packages="1"  files="6"  classes="6"  loc="190"  ncloc="190" />
+		<package name="components" >
+			<metrics statements="84"  coveredstatements="82"  conditionals="206"  coveredconditionals="205"  methods="68"  coveredmethods="65" />
+			<file name="item.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/item.js" >
+				<metrics statements="10"  coveredstatements="10"  conditionals="34"  coveredconditionals="34"  methods="10"  coveredmethods="10" />
+				<line num="1"  count="7"  type="stmt" />
+				<line num="2"  count="7"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="13"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="7"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="13"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="13"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="11"  count="13"  type="stmt" />
+				<line num="13"  count="7"  type="stmt" />
+				<line num="20"  count="7"  type="stmt" />
+				<line num="22"  count="7"  type="stmt" />
+			</file>
+			<file name="list.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/list.js" >
+				<metrics statements="13"  coveredstatements="13"  conditionals="34"  coveredconditionals="34"  methods="11"  coveredmethods="11" />
+				<line num="1"  count="3"  type="stmt" />
+				<line num="2"  count="3"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="3"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="6"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="3"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="3"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="7"  count="3"  type="stmt" />
+				<line num="9"  count="3"  type="stmt" />
+				<line num="10"  count="9"  type="stmt" />
+				<line num="13"  count="3"  type="stmt" />
+				<line num="18"  count="3"  type="stmt" />
+				<line num="22"  count="3"  type="stmt" />
+				<line num="24"  count="3"  type="stmt" />
+			</file>
+			<file name="tab.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/tab.js" >
+				<metrics statements="10"  coveredstatements="9"  conditionals="34"  coveredconditionals="34"  methods="10"  coveredmethods="8" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="1"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="1"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="1"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="1"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="1"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="9"  count="0"  type="stmt" />
+				<line num="11"  count="1"  type="stmt" />
+				<line num="16"  count="1"  type="stmt" />
+				<line num="18"  count="1"  type="stmt" />
+			</file>
+			<file name="tab_system.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/tab_system.js" >
+				<metrics statements="19"  coveredstatements="19"  conditionals="34"  coveredconditionals="34"  methods="14"  coveredmethods="14" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="4"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="5"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="1"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="5"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="1"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="8"  count="5"  type="stmt" />
+				<line num="9"  count="5"  type="stmt" />
+				<line num="10"  count="5"  type="stmt" />
+				<line num="15"  count="1"  type="stmt" />
+				<line num="19"  count="6"  type="stmt" />
+				<line num="20"  count="18"  type="stmt" />
+				<line num="21"  count="18"  type="stmt" />
+				<line num="30"  count="6"  type="stmt" />
+				<line num="31"  count="6"  type="stmt" />
+				<line num="39"  count="6"  type="stmt" />
+				<line num="48"  count="1"  type="stmt" />
+				<line num="54"  count="1"  type="stmt" />
+				<line num="56"  count="1"  type="stmt" />
+			</file>
+			<file name="tab_system2.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/tab_system2.js" >
+				<metrics statements="17"  coveredstatements="16"  conditionals="34"  coveredconditionals="34"  methods="11"  coveredmethods="10" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="2"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="4"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="2"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="4"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="1"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="7"  count="1"  type="stmt" />
+				<line num="10"  count="1"  type="stmt" />
+				<line num="13"  count="1"  type="stmt" />
+				<line num="14"  count="4"  type="stmt" />
+				<line num="15"  count="4"  type="stmt" />
+				<line num="16"  count="4"  type="stmt" />
+				<line num="20"  count="0"  type="stmt" />
+				<line num="24"  count="4"  type="stmt" />
+				<line num="28"  count="1"  type="stmt" />
+				<line num="32"  count="1"  type="stmt" />
+				<line num="35"  count="1"  type="stmt" />
+			</file>
+			<file name="tabs.js"  path="/Users/antoniopol/Desarrollo/react_examples/src/components/tabs.js" >
+				<metrics statements="15"  coveredstatements="15"  conditionals="36"  coveredconditionals="35"  methods="12"  coveredmethods="12" />
+				<line num="1"  count="2"  type="stmt" />
+				<line num="2"  count="4"  type="cond"  truecount="8"  falsecount="0" />
+				<line num="3"  count="2"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="4"  count="4"  type="cond"  truecount="4"  falsecount="0" />
+				<line num="5"  count="2"  type="cond"  truecount="2"  falsecount="0" />
+				<line num="6"  count="2"  type="cond"  truecount="10"  falsecount="0" />
+				<line num="7"  count="2"  type="stmt" />
+				<line num="11"  count="2"  type="stmt" />
+				<line num="12"  count="6"  type="cond"  truecount="1"  falsecount="1" />
+				<line num="13"  count="6"  type="stmt" />
+				<line num="14"  count="6"  type="stmt" />
+				<line num="25"  count="2"  type="stmt" />
+				<line num="27"  count="2"  type="stmt" />
+				<line num="33"  count="2"  type="stmt" />
+				<line num="35"  count="2"  type="stmt" />
+			</file>
+		</package>
+	</project>
+</coverage>

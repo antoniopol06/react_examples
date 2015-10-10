@@ -1,11 +1,10 @@
 'use strict';
 
-var React = require('react');
+import React from 'react';
 
-var Item = require('./item.jsx');
+import Item from './item';
 
-var List = React.createClass({
-
+class List extends React.Component {
   render () {
     var items = this.props.items.map((item) => {
       return <Item key={item} val={item} />;
@@ -20,6 +19,6 @@ var List = React.createClass({
       </div>
     )
   }
-});
+};
 
-module.exports = List;
+export default List;

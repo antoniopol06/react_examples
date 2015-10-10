@@ -1,17 +1,11 @@
 'use strict'
 
-var React = require('react');
+import React from 'react';
 
-var Item = React.createClass({
+class Item extends React.Component {
   propTypes: {
     val: React.PropTypes.string.isRequired
-  },
-
-  getDefaultProps () {
-    return {
-      val: 'default'
-    };
-  },
+  }
 
   render () {
     return (
@@ -20,6 +14,9 @@ var Item = React.createClass({
       </div>
     )
   }
-})
+};
 
-module.exports = Item;
+//sustituye getdefaultprops
+Item.defaultProps = {val: 'default'};
+
+export default Item;

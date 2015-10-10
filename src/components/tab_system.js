@@ -1,19 +1,19 @@
 'use strict';
 
-var React = require('react');
+import React from 'react';
 
-var TabSystem = React.createClass({
+class TabSystem extends React.Component {
+
   //Estados son para definir estados del componente
-  getInitialState () {
-    return {
-      currentTab: 0
-    };
-  },
+  constructor(props) {
+    super(props);
+    this.state = {currentTab: 0};
+  }
 
   changeTab (currentTab) {
     // esto es lo mismo que poner this.setState({ currentTab: currentTab });
     this.setState({ currentTab });
-  },
+  }
 
   renderTabs () {
     return this.props.tabs.map((tab, index) => {
@@ -24,7 +24,7 @@ var TabSystem = React.createClass({
         </div>
       );
     });
-  },
+  }
 
   renderDescription () {
     var tab = this.props.tabs[this.state.currentTab];
@@ -33,7 +33,7 @@ var TabSystem = React.createClass({
         {tab.description}
       </div>
     )
-  },
+  }
 
   render () {
     return (
@@ -49,6 +49,8 @@ var TabSystem = React.createClass({
       </div>
     )
   }
-});
 
-module.exports = TabSystem;
+
+};
+
+export default TabSystem;

@@ -1,4 +1,4 @@
-jest.dontMock('../src/components/item.jsx');
+jest.dontMock('../src/components/item.js');
 
 describe('Item', function () {
 
@@ -11,7 +11,7 @@ describe('Item', function () {
   describe('Item with value', function () {
 
     beforeEach(function () {
-      Item = require('../src/components/item.jsx');
+      Item = require('../src/components/item.js');
       item = TestUtils.renderIntoDocument(<Item val={value} />)
     });
 
@@ -29,7 +29,7 @@ describe('Item', function () {
   describe('Item without value', function (){
     
     beforeEach(function() {
-      Item = require('../src/components/item.jsx');
+      Item = require('../src/components/item.js');
       item = TestUtils.renderIntoDocument(<Item />)
     });
 

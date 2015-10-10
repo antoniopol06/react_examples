@@ -1,4 +1,4 @@
-jest.dontMock('../src/components/tabs.jsx');
+jest.dontMock('../src/components/tabs.js');
 
 describe('TABS', function () {
 
@@ -6,9 +6,9 @@ describe('TABS', function () {
 
   var TestUtils = React.addons.TestUtils;
 
-  var Tabs = require('../src/components/tabs.jsx');
+  var Tabs = require('../src/components/tabs.js');
 
-  var Tab = require('../src/components/tab.jsx');
+  var Tab = require('../src/components/tab.js');
 
   var tabs;
 

@@ -4,14 +4,18 @@
 **/
 
 module.exports = {
-    entry: "./src/index.jsx",
+    entry: "./src/index.js",
     output: {
         path: "./build",
         filename: "app.js"
     },
     module: {
         loaders: [
-            { test: /\.jsx$/, loader: "jsx-loader?harmony" }
+            { 
+                test: /\.js$/, 
+                loader: "babel",
+                exclude: /(node_modules)/,
+            }
         ]
     }
 }

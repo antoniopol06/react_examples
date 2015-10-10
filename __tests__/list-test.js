@@ -1,5 +1,5 @@
-jest.dontMock('../src/components/list.jsx');
-jest.dontMock('../src/components/item.jsx');
+jest.dontMock('../src/components/list.js');
+jest.dontMock('../src/components/item.js');
 
 describe('List', function() {
   var React = require('react/addons');
@@ -9,8 +9,8 @@ describe('List', function() {
   var items = ['cuatro', 'tres', 'dos'];
   var Item;
   beforeEach(function() {
-    List = require('../src/components/list.jsx');
-    Item = require('../src/components/item.jsx');
+    List = require('../src/components/list.js');
+    Item = require('../src/components/item.js');
     list = TestUtils.renderIntoDocument( <List items={items}/> );
   });
 

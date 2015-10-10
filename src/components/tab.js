@@ -1,8 +1,8 @@
 'use restrict';
 
-var React = require('react');
+import React from 'react';
 
-var Tab = React.createClass({
+class Tab extends React.Component {
 
   render () {
 
@@ -13,6 +13,6 @@ var Tab = React.createClass({
     )
   }
 
-});
+};
 
-module.exports = Tab;
+export default Tab;

@@ -1,4 +1,4 @@
-jest.dontMock('../src/components/tab_system2.jsx');
+jest.dontMock('../src/components/tab_system2.js');
 
 describe('TAB SYSTEM 2', function () {
 
@@ -6,9 +6,9 @@ describe('TAB SYSTEM 2', function () {
 
   var TestUtils = React.addons.TestUtils;
 
-  var TabSystem2 = require('../src/components/tab_system2.jsx');
+  var TabSystem2 = require('../src/components/tab_system2.js');
 
-  var Tabs = require('../src/components/tabs.jsx');
+  var Tabs = require('../src/components/tabs.js');
 
   var tabSystem;
 
