@@ -1,4 +1,4 @@
-'use restrict';
+'use strict';
 
 import React from 'react';
 
